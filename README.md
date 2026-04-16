@@ -6,6 +6,10 @@ The current project entry point is:
 
 - `mobilenetv2-demo/`: MobileNetV2 ONNX Runtime demo on macOS, including model analysis, image inference, and CoreML/CPU benchmark scripts
 
+## Documentation
+
+- [docs/mobilenetv2-edge-deploy-optimization.md](docs/mobilenetv2-edge-deploy-optimization.md): technical note covering MobileNetV2 ONNX export, graph optimization, and multi-backend benchmarking
+
 ## Quick Start
 
 Enter the demo directory and install dependencies:
@@ -49,6 +53,8 @@ Expected assets:
 ```text
 .
 ├── README.md
+├── docs
+│   └── mobilenetv2-edge-deploy-optimization.md
 ├── mobilenetv2-demo
 │   ├── README.md
 │   ├── models
