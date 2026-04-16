@@ -38,13 +38,13 @@ Large ONNX model files are not tracked in git. Download them from your release a
 
 ```bash
 python scripts/download_release_assets.py \
-  --base-url https://github.com/<owner>/<repo>/releases/download/<tag>
+  --base-url https://github.com/kaysono0/EdgeFlow/releases/download/v0.1.0
 ```
 
 You can also set the base URL once:
 
 ```bash
-export EDGEFLOW_RELEASE_BASE_URL=https://github.com/<owner>/<repo>/releases/download/<tag>
+export EDGEFLOW_RELEASE_BASE_URL=https://github.com/kaysono0/EdgeFlow/releases/download/v0.1.0
 python scripts/download_release_assets.py
 ```
 
