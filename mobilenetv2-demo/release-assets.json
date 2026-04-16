@@ -1,0 +1,24 @@
+{
+  "assets": [
+    {
+      "name": "mobilenetv2.onnx",
+      "path": "models/mobilenetv2.onnx"
+    },
+    {
+      "name": "mobilenetv2.onnx.data",
+      "path": "models/mobilenetv2.onnx.data"
+    },
+    {
+      "name": "mobilenetv2_sim.onnx",
+      "path": "models/mobilenetv2_sim.onnx"
+    },
+    {
+      "name": "resnet18.onnx",
+      "path": "models/resnet18.onnx"
+    },
+    {
+      "name": "resnet18.onnx.data",
+      "path": "models/resnet18.onnx.data"
+    }
+  ]
+}
