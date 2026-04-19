@@ -1,4 +1,8 @@
 numpy
 onnx
 onnxruntime
+onnxconverter-common
 Pillow
+tabulate
+torch
+torchvision
