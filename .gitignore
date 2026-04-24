@@ -6,3 +6,5 @@ venv/
 env/
 mobilenetv2-demo/models/*.onnx
 mobilenetv2-demo/models/*.onnx.data
+
+.worktrees/
