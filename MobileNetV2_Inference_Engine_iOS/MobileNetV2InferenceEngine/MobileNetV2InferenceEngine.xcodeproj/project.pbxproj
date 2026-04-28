@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EC01AAAC2F9B1C540070CF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC01AA942F9B1C530070CF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC01AA9B2F9B1C530070CF74;
+			remoteInfo = MobileNetV2InferenceEngine;
+		};
+		EC01AAB62F9B1C540070CF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC01AA942F9B1C530070CF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC01AA9B2F9B1C530070CF74;
+			remoteInfo = MobileNetV2InferenceEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC01AA9C2F9B1C530070CF74 /* MobileNetV2InferenceEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileNetV2InferenceEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC01AAAB2F9B1C540070CF74 /* MobileNetV2InferenceEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileNetV2InferenceEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC01AAB52F9B1C540070CF74 /* MobileNetV2InferenceEngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileNetV2InferenceEngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EC01AA9E2F9B1C530070CF74 /* MobileNetV2InferenceEngine */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MobileNetV2InferenceEngine;
+			sourceTree = "<group>";
+		};
+		EC01AAAE2F9B1C540070CF74 /* MobileNetV2InferenceEngineTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MobileNetV2InferenceEngineTests;
+			sourceTree = "<group>";
+		};
+		EC01AAB82F9B1C540070CF74 /* MobileNetV2InferenceEngineUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MobileNetV2InferenceEngineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC01AA992F9B1C530070CF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC01AAA82F9B1C540070CF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC01AAB22F9B1C540070CF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC01AA932F9B1C530070CF74 = {
+			isa = PBXGroup;
+			children = (
+				EC01AA9E2F9B1C530070CF74 /* MobileNetV2InferenceEngine */,
+				EC01AAAE2F9B1C540070CF74 /* MobileNetV2InferenceEngineTests */,
+				EC01AAB82F9B1C540070CF74 /* MobileNetV2InferenceEngineUITests */,
+				EC01AA9D2F9B1C530070CF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC01AA9D2F9B1C530070CF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC01AA9C2F9B1C530070CF74 /* MobileNetV2InferenceEngine.app */,
+				EC01AAAB2F9B1C540070CF74 /* MobileNetV2InferenceEngineTests.xctest */,
+				EC01AAB52F9B1C540070CF74 /* MobileNetV2InferenceEngineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC01AA9B2F9B1C530070CF74 /* MobileNetV2InferenceEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC01AABF2F9B1C540070CF74 /* Build configuration list for PBXNativeTarget "MobileNetV2InferenceEngine" */;
+			buildPhases = (
+				EC01AA982F9B1C530070CF74 /* Sources */,
+				EC01AA992F9B1C530070CF74 /* Frameworks */,
+				EC01AA9A2F9B1C530070CF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EC01AA9E2F9B1C530070CF74 /* MobileNetV2InferenceEngine */,
+			);
+			name = MobileNetV2InferenceEngine;
+			packageProductDependencies = (
+			);
+			productName = MobileNetV2InferenceEngine;
+			productReference = EC01AA9C2F9B1C530070CF74 /* MobileNetV2InferenceEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC01AAAA2F9B1C540070CF74 /* MobileNetV2InferenceEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC01AAC22F9B1C540070CF74 /* Build configuration list for PBXNativeTarget "MobileNetV2InferenceEngineTests" */;
+			buildPhases = (
+				EC01AAA72F9B1C540070CF74 /* Sources */,
+				EC01AAA82F9B1C540070CF74 /* Frameworks */,
+				EC01AAA92F9B1C540070CF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC01AAAD2F9B1C540070CF74 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC01AAAE2F9B1C540070CF74 /* MobileNetV2InferenceEngineTests */,
+			);
+			name = MobileNetV2InferenceEngineTests;
+			packageProductDependencies = (
+			);
+			productName = MobileNetV2InferenceEngineTests;
+			productReference = EC01AAAB2F9B1C540070CF74 /* MobileNetV2InferenceEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC01AAB42F9B1C540070CF74 /* MobileNetV2InferenceEngineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC01AAC52F9B1C540070CF74 /* Build configuration list for PBXNativeTarget "MobileNetV2InferenceEngineUITests" */;
+			buildPhases = (
+				EC01AAB12F9B1C540070CF74 /* Sources */,
+				EC01AAB22F9B1C540070CF74 /* Frameworks */,
+				EC01AAB32F9B1C540070CF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC01AAB72F9B1C540070CF74 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC01AAB82F9B1C540070CF74 /* MobileNetV2InferenceEngineUITests */,
+			);
+			name = MobileNetV2InferenceEngineUITests;
+			packageProductDependencies = (
+			);
+			productName = MobileNetV2InferenceEngineUITests;
+			productReference = EC01AAB52F9B1C540070CF74 /* MobileNetV2InferenceEngineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC01AA942F9B1C530070CF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					EC01AA9B2F9B1C530070CF74 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					EC01AAAA2F9B1C540070CF74 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = EC01AA9B2F9B1C530070CF74;
+					};
+					EC01AAB42F9B1C540070CF74 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = EC01AA9B2F9B1C530070CF74;
+					};
+				};
+			};
+			buildConfigurationList = EC01AA972F9B1C530070CF74 /* Build configuration list for PBXProject "MobileNetV2InferenceEngine" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC01AA932F9B1C530070CF74;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC01AA9D2F9B1C530070CF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC01AA9B2F9B1C530070CF74 /* MobileNetV2InferenceEngine */,
+				EC01AAAA2F9B1C540070CF74 /* MobileNetV2InferenceEngineTests */,
+				EC01AAB42F9B1C540070CF74 /* MobileNetV2InferenceEngineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC01AA9A2F9B1C530070CF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC01AAA92F9B1C540070CF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC01AAB32F9B1C540070CF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC01AA982F9B1C530070CF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC01AAA72F9B1C540070CF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC01AAB12F9B1C540070CF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC01AAAD2F9B1C540070CF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC01AA9B2F9B1C530070CF74 /* MobileNetV2InferenceEngine */;
+			targetProxy = EC01AAAC2F9B1C540070CF74 /* PBXContainerItemProxy */;
+		};
+		EC01AAB72F9B1C540070CF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC01AA9B2F9B1C530070CF74 /* MobileNetV2InferenceEngine */;
+			targetProxy = EC01AAB62F9B1C540070CF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC01AABD2F9B1C540070CF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T6NNKLPFL7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileNetV2InferenceEngine/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileNetV2InferenceEngine/Frameworks/MNN.framework/Headers",
+					"$(PROJECT_DIR)/MobileNetV2InferenceEngine/Frameworks/ncnn.framework/Headers",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Metal,
+					"-framework",
+					ImageIO,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MNN,
+					"-framework",
+					ncnn,
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-framework",
+					Metal,
+					"-framework",
+					ImageIO,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MNN,
+					"-framework",
+					ncnn,
+					"-framework",
+					MoltenVK,
+					"-framework",
+					glslang,
+				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileNetV2InferenceEngine/MobileNetV2InferenceEngine-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC01AABE2F9B1C540070CF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T6NNKLPFL7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileNetV2InferenceEngine/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileNetV2InferenceEngine/Frameworks/MNN.framework/Headers",
+					"$(PROJECT_DIR)/MobileNetV2InferenceEngine/Frameworks/ncnn.framework/Headers",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Metal,
+					"-framework",
+					ImageIO,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MNN,
+					"-framework",
+					ncnn,
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-framework",
+					Metal,
+					"-framework",
+					ImageIO,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MNN,
+					"-framework",
+					ncnn,
+					"-framework",
+					MoltenVK,
+					"-framework",
+					glslang,
+				);
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileNetV2InferenceEngine/MobileNetV2InferenceEngine-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EC01AAC02F9B1C540070CF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6NNKLPFL7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription[sdk=iphoneos*]" = "Allow saving the preprocessed test image to Photos for inspection.";
+				"INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription[sdk=iphonesimulator*]" = "Allow saving the preprocessed test image to Photos for inspection.";
+				"INFOPLIST_KEY_NSPhotoLibraryUsageDescription[sdk=iphoneos*]" = "Allow selecting test images from Photos.";
+				"INFOPLIST_KEY_NSPhotoLibraryUsageDescription[sdk=iphonesimulator*]" = "Allow selecting test images from Photos.";
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayson.MobileNetV2InferenceEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		EC01AAC12F9B1C540070CF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6NNKLPFL7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription[sdk=iphoneos*]" = "Allow saving the preprocessed test image to Photos for inspection.";
+				"INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription[sdk=iphonesimulator*]" = "Allow saving the preprocessed test image to Photos for inspection.";
+				"INFOPLIST_KEY_NSPhotoLibraryUsageDescription[sdk=iphoneos*]" = "Allow selecting test images from Photos.";
+				"INFOPLIST_KEY_NSPhotoLibraryUsageDescription[sdk=iphonesimulator*]" = "Allow selecting test images from Photos.";
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayson.MobileNetV2InferenceEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		EC01AAC32F9B1C540070CF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6NNKLPFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayson.MobileNetV2InferenceEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileNetV2InferenceEngine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileNetV2InferenceEngine";
+				XROS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		EC01AAC42F9B1C540070CF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6NNKLPFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayson.MobileNetV2InferenceEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileNetV2InferenceEngine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileNetV2InferenceEngine";
+				XROS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
+		EC01AAC62F9B1C540070CF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6NNKLPFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayson.MobileNetV2InferenceEngineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = MobileNetV2InferenceEngine;
+				XROS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		EC01AAC72F9B1C540070CF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6NNKLPFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayson.MobileNetV2InferenceEngineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = MobileNetV2InferenceEngine;
+				XROS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC01AA972F9B1C530070CF74 /* Build configuration list for PBXProject "MobileNetV2InferenceEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC01AABD2F9B1C540070CF74 /* Debug */,
+				EC01AABE2F9B1C540070CF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC01AABF2F9B1C540070CF74 /* Build configuration list for PBXNativeTarget "MobileNetV2InferenceEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC01AAC02F9B1C540070CF74 /* Debug */,
+				EC01AAC12F9B1C540070CF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC01AAC22F9B1C540070CF74 /* Build configuration list for PBXNativeTarget "MobileNetV2InferenceEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC01AAC32F9B1C540070CF74 /* Debug */,
+				EC01AAC42F9B1C540070CF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC01AAC52F9B1C540070CF74 /* Build configuration list for PBXNativeTarget "MobileNetV2InferenceEngineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC01AAC62F9B1C540070CF74 /* Debug */,
+				EC01AAC72F9B1C540070CF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC01AA942F9B1C530070CF74 /* Project object */;
+}
